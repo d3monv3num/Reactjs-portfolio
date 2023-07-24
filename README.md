@@ -5,7 +5,7 @@
 
 This repository contains a personal portfolio website created using ReactJS, showcasing the projects, skills, and experiences of a college student. The portfolio website serves as a professional online presence, providing potential employers and collaborators with an insight into the student's capabilities and accomplishments.
 
-Live Demo: [Your Portfolio Demo Link](https://codecanvas-namananand.netlify.app/)
+Live Demo: [Portfolio](https://codecanvas-namananand.netlify.app/)
 
 ## Features
 
