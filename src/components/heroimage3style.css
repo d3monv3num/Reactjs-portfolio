@@ -1,0 +1,84 @@
+.hero-img2 {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 85vh;
+  position: relative;
+}
+
+/* .hero-img::before {
+  content: "";
+  background-image: url('../assets/jefferson-santos-9SoCnyQmkzI-unsplash.jpg');
+  background-size: cover;
+  background-position: center center; 
+  background-attachment: fixed; 
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+} */
+
+.parallax-background2 {
+  background-image: url('../assets/hero-img2.jpeg');
+  background-size: 85rem;
+  background-position: center top;
+  width: 100%;
+  height: 85vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: background-position 0s ease-in;
+}
+@keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+}
+.heading-hide2{
+    margin-left: 25%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+.heading2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: slideIn 1.5s ease-out forwards;
+}
+.hero-img2 p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+@media screen and(max-width:640px) {
+    
+    .hero-img2 h1{
+        font-size: 2rem;
+    }
+    .parallax-background2{
+       background-position: center bottom;
+    }
+}
+
+
+/* .title {
+    font-size: 3rem;
+    animation: slideIn 2s linear forwards;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  } */

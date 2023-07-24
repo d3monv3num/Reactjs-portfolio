@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root{
+  --color-bg:black;
+  --color-primary:rgb(255, 168, 27);
+  --color-accent:white;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit',sans-serif;
+}
+body{
+  background: var(--color-bg);
+}
+
+h1,h4,p,a{
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.btn{
+  padding: 12px 32px;
+  font-size: 1rem;
+  background: var(--color-primary);
+  text-transform: uppercase;
+  color: #222;
+  border: 1px solid var(--color-accent);
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-light{
+  background:transparent;
+  color: var(--color-accent);
+}
+.btn:hover{
+  background:rgba(255, 255, 255, 0.2);
+  color: var(--color-accent);
+  transition: 400ms;
+}
